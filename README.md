@@ -1,9 +1,7 @@
-Bank GoodCredit wants to predict cred score for current credit card 
-customers. The cred score will denote a customer’s credit worthiness 
-and help the bank in reducing credit default risk.
+This project was developed for Bank GoodCredit to support risk management by estimating the credit score of current credit card holders.
 
-* Target variable → Bad_label
-0 – Customer has Good credit history
-1 – Customer has Bad credit history (falls into 30 DPD + bucket)
-  
-* Our benchmark model has gini as 37.9
+The goal was to classify customers based on their repayment behavior:
+
+Bad_label = 0 → Indicates a reliable credit history
+
+Bad_label = 1 → Flags a customer with poor repayment history
